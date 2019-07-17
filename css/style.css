@@ -11,6 +11,17 @@ nav .brand-logo {
   color: #444;
 }
 
+#logo-image {
+    width: 70px;
+    margin-top: 1px;
+}
+
+#logo-text {
+  display: inline-block;
+  color: black;
+  margin-bottom: 20px
+}
+
 p {
   line-height: 2rem;
 }
