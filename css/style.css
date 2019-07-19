@@ -30,34 +30,35 @@ p {
   color: #26a69a;
 }
 
-.parallax-container .parallax {
-  bottom: 40%;
+
+.header {
+  height: 50vh;
+  background: url("../images/Socks1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
+.headerBox {
   height: auto;
-  color: rgba(255,255,255,.9);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background: rgba(255,255,255,0.70);
+  padding: 0px 30px;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+
 }
 
 .icon-block {
